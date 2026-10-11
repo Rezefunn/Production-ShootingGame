@@ -1,9 +1,7 @@
 //using System;
 using Cysharp.Threading.Tasks;
-using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.Events;
 
 public class AssetBundleManager
 {
@@ -33,17 +31,7 @@ public class AssetBundleManager
     {
         get
         {
-            string baseDir;
-#if UNITY_EDITOR
-            // 编辑器下：项目根目录
-            baseDir = System.IO.Path.GetDirectoryName(Application.dataPath);
-#else
-            // 发布后：exe所在目录
-            baseDir = System.IO.Path.GetDirectoryName(Application.dataPath);
-#endif
-            // 拼接 AssetBundles/{平台名}/
-            string platformDir = System.IO.Path.Combine(baseDir, "AssetBundles", MainABName);
-            return platformDir + "/";  // 末尾加斜杠
+            return System.IO.Path.Combine(Application.streamingAssetsPath, "AssetBundles", MainABName) + "/";
         }
     }
 

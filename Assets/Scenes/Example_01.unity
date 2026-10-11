@@ -41165,6 +41165,21 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1475153260609673401, guid: 5bc4ba32ef109dc4e873da64b6387d4d,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1475153260609673401, guid: 5bc4ba32ef109dc4e873da64b6387d4d,
+        type: 3}
+      propertyPath: m_CullingMode
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2772832929447830522, guid: 5bc4ba32ef109dc4e873da64b6387d4d,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4461053688139513049, guid: 5bc4ba32ef109dc4e873da64b6387d4d,
         type: 3}
       propertyPath: patrolPoints.Array.data[0]
@@ -66803,7 +66818,7 @@ Camera:
     height: 1
   near clip plane: 0.1
   far clip plane: 5000
-  field of view: 39.99998
+  field of view: 40
   orthographic: 0
   orthographic size: 10
   m_Depth: -1
@@ -90924,13 +90939,13 @@ PrefabInstance:
       objectReference: {fileID: 1260696829}
     - target: {fileID: 4063282333090647400, guid: ee15b7662e25ccc478a6f03aa08012f2,
         type: 3}
+      propertyPath: m_CullingMode
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4063282333090647400, guid: ee15b7662e25ccc478a6f03aa08012f2,
+        type: 3}
       propertyPath: m_WarningMessage
-      value: "\nBinding warning: Some generic clip(s) animate transforms that are
-        already bound by a Humanoid avatar. These transforms can only be changed
-        by Humanoid clips.\n\tTransform 'RightShoulder'\n\tTransform 'Head'\n\tTransform
-        'LeftArm'\n\tTransform 'Neck'\n\tTransform 'LeftHand'\n\tTransform 'Spine2'\n\tTransform
-        'LeftUpperArm'\n\tTransform 'RightShoulder'\n\tTransform 'Head'\n\tTransform
-        'LeftArm'\n\tand more ..."
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 6814232784320609021, guid: ee15b7662e25ccc478a6f03aa08012f2,
         type: 3}
@@ -91262,7 +91277,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1314304638}
   serializedVersion: 2
-  m_LocalRotation: {x: -2.7620871e-11, y: 2.3052403e-10, z: 5.427725e-21, w: 1}
+  m_LocalRotation: {x: 0, y: 0.000000029802326, z: -1.4858475e-16, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -91298,7 +91313,7 @@ MonoBehaviour:
   m_LookAt: {fileID: 0}
   m_Follow: {fileID: 0}
   m_Lens:
-    FieldOfView: 39.99998
+    FieldOfView: 40
     OrthographicSize: 10
     NearClipPlane: 0.1
     FarClipPlane: 5000
@@ -91445,7 +91460,7 @@ MonoBehaviour:
   m_Follow: {fileID: 1685972176}
   m_CommonLens: 1
   m_Lens:
-    FieldOfView: 39.99998
+    FieldOfView: 40
     OrthographicSize: 10
     NearClipPlane: 0.1
     FarClipPlane: 5000
@@ -94888,7 +94903,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1369404105}
   serializedVersion: 2
-  m_LocalRotation: {x: -2.7620871e-11, y: 2.3052403e-10, z: 5.427725e-21, w: 1}
+  m_LocalRotation: {x: 0, y: 0.000000029802326, z: -1.4858475e-16, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -94924,7 +94939,7 @@ MonoBehaviour:
   m_LookAt: {fileID: 0}
   m_Follow: {fileID: 0}
   m_Lens:
-    FieldOfView: 39.99998
+    FieldOfView: 40
     OrthographicSize: 10
     NearClipPlane: 0.1
     FarClipPlane: 5000
@@ -117056,6 +117071,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1475153260609673401, guid: 5bc4ba32ef109dc4e873da64b6387d4d,
+        type: 3}
+      propertyPath: m_CullingMode
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4461053688139513049, guid: 5bc4ba32ef109dc4e873da64b6387d4d,
         type: 3}
       propertyPath: patrolPoints.Array.size
@@ -136673,7 +136693,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1920843469}
   serializedVersion: 2
-  m_LocalRotation: {x: -2.7620871e-11, y: 2.3052403e-10, z: 5.427725e-21, w: 1}
+  m_LocalRotation: {x: 0, y: 0.000000029802326, z: -1.4858475e-16, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -136709,7 +136729,7 @@ MonoBehaviour:
   m_LookAt: {fileID: 0}
   m_Follow: {fileID: 0}
   m_Lens:
-    FieldOfView: 39.99998
+    FieldOfView: 40
     OrthographicSize: 10
     NearClipPlane: 0.1
     FarClipPlane: 5000

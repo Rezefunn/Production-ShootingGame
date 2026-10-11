@@ -68,6 +68,9 @@ public class PlayerCameraState : PlayerState
         float targetPositionX = isAim ? 0.4f : 0.4f;
         float targetFOV = isAim ? 20 : 40;
 
+        float targetYSpeed = isAim ? 0.3f : 0.45f;
+        float targetXSpeed = isAim ? 50 : 100;
+
         //currentCamRadius = Mathf.SmoothDamp(currentCamRadius, targetRadius, ref camRadiusVelocity, duration);
         currentCamFollowX = Mathf.SmoothDamp(currentCamFollowX, targetPositionX, ref camFollowVelocity, duration);
         currentCamFOV = Mathf.SmoothDamp(currentCamFOV, targetFOV, ref camFOVVelocity, duration);
@@ -75,5 +78,8 @@ public class PlayerCameraState : PlayerState
         player.freeLook.m_Orbits[1].m_Radius = currentCamRadius;
         player.camFollow.localPosition = new Vector3(currentCamFollowX, 2f, 0);
         player.freeLook.m_Lens.FieldOfView = currentCamFOV;
+
+        player.freeLook.m_YAxis.m_MaxSpeed = targetYSpeed;
+        player.freeLook.m_XAxis.m_MaxSpeed = targetXSpeed;
     }
 }

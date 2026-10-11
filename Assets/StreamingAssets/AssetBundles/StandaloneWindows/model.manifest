@@ -1,0 +1,47 @@
+ManifestFileVersion: 0
+CRC: 769489222
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: f44769b29b1f3080ebcb5245c31b8a8f
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: eb0dfd9bef5f32e7dc9d3326070c3794
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: f44769b29b1f3080ebcb5245c31b8a8f
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 65
+  Script: {instanceID: 0}
+- Class: 74
+  Script: {instanceID: 0}
+- Class: 90
+  Script: {instanceID: 0}
+- Class: 95
+  Script: {instanceID: 0}
+- Class: 137
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Models/KyleRobot.fbx
+- Assets/Models/Weapon_01.fbx
+- Assets/AssetBundlesSource/Prefabs/BulletLite_01.prefab
+- Assets/Models/Weapon_02.fbx
+- Assets/Models/BulletLite_01.fbx
+Dependencies:
+- D:/job/Unity/OverlookShootingGame/Assets/StreamingAssets/AssetBundles/StandaloneWindows/material

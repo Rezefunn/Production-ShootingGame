@@ -1,0 +1,37 @@
+ManifestFileVersion: 0
+CRC: 3203082212
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 0aed07753acafde52c37199e1333cf5a
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 4f350b07989618aa231a92571572fa53
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 0aed07753acafde52c37199e1333cf5a
+HashAppended: 0
+ClassTypes:
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 134
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/AssetBundlesSource/PhysicMaterials/PlayerFrictionless.physicMaterial
+- Assets/JMO Assets/WarFX/Desktop/Materials/Misc/WFX_M_GlowCircle Add.mat
+- Assets/JMO Assets/WarFX/Desktop/Materials/Impacts/WFX_M_Sparks Metal.mat
+- Assets/JMO Assets/WarFX/Desktop/Materials/MuzzleFlashes/WFX_M_MF Glow.mat
+- Assets/JMO Assets/WarFX/Desktop/Materials/MuzzleFlashes/WFX_M_MF Sparks RIFLE2.mat
+- Assets/JMO Assets/WarFX/Desktop/Textures/Misc/WFX_T_Sparks Metal A8.png
+- Assets/AssetBundlesSource/Materials/LowPolyWeaponsLite_MAIN.mat
+- Assets/AssetBundlesSource/Materials/KyleRobot.mat
+- Assets/JMO Assets/WarFX/Desktop/Materials/MuzzleFlashes/WFX_M_MF Side RIFLE2.mat
+- Assets/JMO Assets/WarFX/Desktop/Materials/MuzzleFlashes/WFX_M_MF FrontRear RIFLE2.mat
+Dependencies:
+- D:/job/Unity/OverlookShootingGame/Assets/StreamingAssets/AssetBundles/StandaloneWindows/shader
+- D:/job/Unity/OverlookShootingGame/Assets/StreamingAssets/AssetBundles/StandaloneWindows/texture
